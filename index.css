@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
+    background-color: bisque;
 }
 
 .logo {
@@ -20,6 +21,7 @@
 }
 
 .res-container{
+    background-color: #ecbf6cb4;
     display: flex;
     flex-wrap: wrap; /*to make cardscome in next row*/
     padding: 10px;
@@ -28,11 +30,11 @@
 .res-card {
     background-color: #f6a103b4;
     padding: 5px;
-    height: 325px;
+    height: 340px;
     width: 210px;
     transition: transform 0.5s;
     animation-delay: 1ms;
-    margin: 10px;
+    margin: 15px;
 }
 
 .time {
@@ -60,9 +62,50 @@
     height: 45%;
 }
 
-.filter-btn{
-    padding: 5px;
-    margin: 10px;
-    cursor: pointer;
+.filter{
+    display: flex;
 }
 
+.filter-btn{
+    padding: 8px 8px;
+    margin: 20px;
+    cursor: pointer;
+    font-size: medium;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.filter-btn:hover{
+    background-color: rgb(243, 205, 156);
+    transition: all .4 ease;
+    -webkit-transition: all .4 ease;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap;
+    padding: 10px; */
+}
+
+.shimmer-card{
+    background-color: #f0f0f0;
+    height: 325px;
+    width: 210px;
+    margin: 10px;
+}
+
+.login{
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: large;
+    background-color: rgb(98, 30, 4);
+    color: white;
+}
+
+.search{
+    display: flex;
+    margin: 10px;
+}
